@@ -1,0 +1,11 @@
+footer {
+	background-color:skyblue;
+	color:white;
+	height: 5vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 2vh;
+	margin: 0;
+	padding: 0;
+}

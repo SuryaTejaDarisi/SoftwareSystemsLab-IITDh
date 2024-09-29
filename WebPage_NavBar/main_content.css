@@ -1,0 +1,9 @@
+.main_content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	height: 87.8vh;
+	font-size: 2.5vh;
+	position: relative;
+}
