@@ -1,0 +1,39 @@
+.pricing-card {
+	box-shadow: 0 2px 5px;
+	margin: 10px;
+	padding: 20px;
+	display: inline-block;
+	text-align: center;
+	background-color:white;
+	border:1px solid red;
+	border-radius:1vh;
+}
+
+.pricing-card:hover {
+	box-shadow: 0 4px 10px;
+}
+
+button {
+	background-color: green;
+	color: white;
+	padding:1vh 1.5vh;
+	border-radius: 0.5vh;
+}
+
+button:hover {
+	background-color: lightgreen;
+	cursor: pointer;
+}
+
+hr {
+	border-color: blue;
+}
+
+.plan {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.price {
+	font-size: 36px;
+}
