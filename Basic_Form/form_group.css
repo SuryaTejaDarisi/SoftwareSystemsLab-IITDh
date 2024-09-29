@@ -1,0 +1,21 @@
+input[type=text] {
+	width:34vh;
+	border:1px solid blue;
+	border-radius: 2px;
+}
+
+input[type=email] {
+	width:34vh;
+	border:1px solid blue;
+	border-radius: 2px;
+}
+
+input[type=password] {
+	width: 34vh;
+	border: 1px solid blue;
+	border-radius: 2px;
+}
+
+/*input[type=radio] {
+	accent-color: green;
+}*/

@@ -1,0 +1,19 @@
+.form_container {
+	border: 0.25vh solid blue;
+	background-color: #f9f9f9;
+	border-radius: 1vh;
+	margin: 1vh;
+	padding: 2vh 0vh 2vh 1vh;
+	width: 35vh;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#title {
+	font-weight: bold;
+	text-align: center;
+}

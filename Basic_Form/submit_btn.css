@@ -1,0 +1,13 @@
+.submit_btn {
+	color: white;
+	background-color: green;
+	border-radius: 0.25vh;
+	width: 34vh;
+	border:none;
+	height: 3vh;
+}
+
+.submit_btn:hover {
+	background-color: red;
+	cursor: pointer;
+}

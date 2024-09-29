@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="utf-8">
+		<title>Registrtation Form</title>
+		<link rel="stylesheet" href="fonts.css">
+		<link rel="stylesheet" href="form_container.css">
+		<link rel="stylesheet" href="form_group.css">
+		<link rel="stylesheet" href="submit_btn.css">
+</head>
+<body>
+	<div class="form_container">
+		<div id="title">Registration Form</div>
+		<form class="form_group.css">
+			<label for="name">Name:</label><br>
+			<input type="text" id="name" name="name" pattern="[A-Za-z].{1,}" required ><br><br>
+			<label for="mail">Email:</label><br>
+			<input type="email" id="mail" name="mail" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required><br><br>
+			<label for="passwd">Password:</label><br>
+			<input type="password" id="passwd" name="passwd" required><br><br>
+			Gender:<br>
+			<input type="radio" id="male" name="gender"><br>
+			<label for="male">Male</label><br>
+			<input type="radio" id="female" name="gender"><br>
+			<label for="female">Female</label><br>
+			<input type="radio" id="other" name="gender"><br>
+			<label for="other">Other</label><br><br>
+			Hobbies:<br>
+			<input type="checkbox" id="reading" name="hobbies"><br>
+			<label for="reading">Reading</label><br>
+			<input type="checkbox" id="sports" name="hobbies"><br>
+			<label for="sports">Sports</label><br>
+			<input type="checkbox" id="music" name="hobbies"><br>
+			<label for="music">Music</label><br><br>
+			<input type="submit" value="Submit" class="submit_btn">
+		</form>
+	</div>
+</body>
+</html>
